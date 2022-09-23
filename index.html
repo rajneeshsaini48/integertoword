@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <link rel="stylesheet" href="Style.css">
+   
+    <title>Document</title>
+  </head>
+  <body>
+    <div class='login'><h1>Convert Number to Word</h1>
+
+        <input type="text" name="number" id="number" placeholder = "Enter Any Number" />
+        
+        <div class='button' id="button">Convert To Word</div>
+        
+        </div>
+        <script src="App.js"></script>
+
+        <script>
+            var button = document.getElementById('button');
+            button.addEventListener('click', ()=>{
+                var input = document. getElementById('number').value;
+                alert(`Numeric: ${input} || text: ${toWords(input)}`)
+            })
+
+        </script>
+  </body>
+  </html>
+    
+ 
